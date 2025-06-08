@@ -1,0 +1,52 @@
+[
+  {
+    "label": "Item",
+    "kind": 7,
+    "insertTextFormat": 2,
+    "insertText": "Item {\n    id: ${1:}\n    $0\n};",
+    "documentation": "base wrapper"
+  },
+  {
+    "label": "Rectangle",
+    "kind": 7,
+    "insertTextFormat": 2,
+    "insertText": "Rectangle {\n    id: ${1:}\n    $0\n};",
+    "documentation": "basic rectangle shape"
+  },
+  {
+    "label": "Image",
+    "kind": 7,
+    "insertTextFormat": 2,
+    "insertText": "Image {\n    source: \"${1:}\"\n    $0\n};",
+    "documentation": "image element with source"
+  },
+  {
+    "label": "Row",
+    "kind": 7,
+    "insertTextFormat": 2,
+    "insertText": "Row {\n    $0\n};",
+    "documentation": "horizontal layout"
+  },
+  {
+    "label": "ListView",
+    "kind": 7,
+    "insertTextFormat": 2,
+    "insertText": "ListView {\n    model: ${1:}\n    delegate: ${2:}\n    $0\n};",
+    "documentation": "list view component"
+  },
+  {
+    "label": "id",
+    "kind": 14,
+    "insertTextFormat": 2,
+    "insertText": "id: ${1:};\n$0",
+    "documentation": "QML id property"
+  },
+  {
+    "label": "source",
+    "kind": 14,
+    "insertTextFormat": 2,
+    "insertText": "source: \"${1:}\";\n$0",
+    "documentation": "QML source property"
+  }
+]
+
