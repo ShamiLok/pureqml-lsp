@@ -3,50 +3,50 @@
     "label": "Item",
     "kind": 7,
     "insertTextFormat": 2,
-    "insertText": "Item {\n    id: ${1:}\n    $0\n};",
-    "documentation": "base wrapper"
+    "insertText": "Item {\n\tid: ${1:};\t$0\n}",
+    "documentation": "base component for every visible objects."
   },
   {
     "label": "Rectangle",
     "kind": 7,
     "insertTextFormat": 2,
-    "insertText": "Rectangle {\n    id: ${1:}\n    $0\n};",
-    "documentation": "basic rectangle shape"
+    "insertText": "Rectangle {\n\tid: ${1:};\t$0\n};",
+    "documentation": "Colored rectangle with optional rounded corners, border and/or gradient."
   },
   {
     "label": "Image",
     "kind": 7,
     "insertTextFormat": 2,
-    "insertText": "Image {\n    source: \"${1:}\"\n    $0\n};",
-    "documentation": "image element with source"
+    "insertText": "Image {\n\tsource: \"${1:}\";\t$0\n};",
+    "documentation": "item for image displaying"
   },
   {
     "label": "Row",
     "kind": 7,
     "insertTextFormat": 2,
-    "insertText": "Row {\n    $0\n};",
-    "documentation": "horizontal layout"
+    "insertText": "Row {\n\t$0\n};",
+    "documentation": layout for horizontal oriented content"
   },
   {
     "label": "ListView",
     "kind": 7,
     "insertTextFormat": 2,
-    "insertText": "ListView {\n    model: ${1:}\n    delegate: ${2:}\n    $0\n};",
-    "documentation": "list view component"
+    "insertText": "ListView {\n\tmodel: ListModel{ };\n\torientation: ListView.Vertical;\n\tdelegate: ${1:}\n};",
+    "documentation": "single direction (vertical or horizontal) oriented view"
   },
   {
     "label": "id",
     "kind": 14,
     "insertTextFormat": 2,
     "insertText": "id: ${1:};\n$0",
-    "documentation": "QML id property"
+    "documentation": "element id"
   },
   {
     "label": "source",
     "kind": 14,
     "insertTextFormat": 2,
     "insertText": "source: \"${1:}\";\n$0",
-    "documentation": "QML source property"
+    "documentation": ""
   }
 ]
 
